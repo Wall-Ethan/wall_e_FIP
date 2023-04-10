@@ -7,20 +7,18 @@
 </head>
 <!-- students must convert divs to semantic tags -->
 <body>
-	<div id="container">
+	<main id="container">
         
-        <div id="header-con">
+        <header id="header-con">
             <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
-                </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
+                <img src="images/fip_logo.png" alt="logo" id="logo">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="index.html">About</a>
+                </nav>
             </div>
-        </div> 
-
-        <main>
+        </header> 
 
             <div id="gallery-hero-con">
                 <div class="grid-con">
@@ -34,10 +32,19 @@
                 </div>
             </div>
      
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+            <div class="grid-con" id="products">
+                <h2>Gallery</h2>
+                <div class="product-box" id="product1">
+                    <img src="images/war_plaque.png" alt="image">
+                    <h3>Afghanistan Memorial Plaque </h3>
+                </div>
+                <div class="product-box" id="product2">
+                    <img src="images/canada_flag.png" alt="image">
+                    <h3>Simcoe Soldier Gravesite</h3>
+                </div>
+                <div class="product-box" id="product3">
+                    <img src="images/norfolk_memorial.png" alt="image">
+                    <h3>Norfolk War Memorial</h3>
                 </div>
                 <div class="gallery-box">
                     <img src="https://via.placeholder.com/536x242" alt="image">
@@ -75,28 +82,22 @@
                 <div class="gallery-box">
                     <img src="https://via.placeholder.com/536x242" alt="image">
                 </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-            </div>         
-        </main>
-
-        <div id="footer-con">
+            </div>       
+    </main>
+        <footer id="footer-con">
             <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
-                </div>
                 <div id="footer-nav" class="box-color">
+                    <h3>Follow us @: SoldierSolute@facebook.com and SoldierSolute@twitter.com</h3>
                 </div>
+                <h2>Newsletter -</h2><h2>Sign-up</h2>
                 <div id="footer-newsletter1" class="box-color">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
                 </div>
                 <div id="footer-newsletter2" class="box-color">
+                    <input type="submit" value="send">
                 </div>
             </div>
-        </div>
-
-    </div><!--end container-->  
+        </footer> 
 </body>
 </html>
