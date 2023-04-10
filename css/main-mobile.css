@@ -219,16 +219,24 @@ label {
 /* gallery page */
 
 #hero-gallery-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background-color: #575151;
+	background-image: url('../images/memorial_banner_mobile.jpg');
 	height: 458px;
+	 background-blend-mode: multiply;
 }
 
 #hero-gallery-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
-	height: 350px;
 	margin-top: 20px;
+	text-align: left;
+	padding-left: 30px;
+	font-size: 30px;
+	color: #dddddd
+}
+
+h3 {
+	text-align: center;
+	font-size: 25px;
 }
 
 #gallery-controls {
