@@ -5,7 +5,7 @@
 
 .box-color {
 	color: #fff;
-	background: #000;
+	background: #aaaaaa;
 	text-align: center;
 	margin: 0;
 }
@@ -30,7 +30,14 @@ img {
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	background-color: rgb(168, 95, 43);
+}
+
+main {
+	background-color:  #B28F53;
+}
+
+header {
+	background-image: url('../images/smoke.png');
 }
 
 /* Remove underlines from links */
@@ -56,6 +63,7 @@ you work on and the intended audience, we may go as low as 320px */
 #container {
 	margin: 0 auto;
 	width: 428px;
+	background-color: #B28F53;
 }
 
 /* this is our grid based off of our XD file */
@@ -91,16 +99,14 @@ you work on and the intended audience, we may go as low as 320px */
 /* index page */
 
 #hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
+	background-color: #B28F53;
 	height: 458px;
 }
 
 #hero-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
-	height: 380px;
 	margin-top: 20px;
+	font-size: 2em;
 }
 
 #image-slider-con {
