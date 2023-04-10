@@ -33,10 +33,14 @@ img {
 	padding: 0; 
 }
 
+footer {
+	background-color: #B28F53;
+}
+
 /*html selectors*/
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 12px;
 }
 
@@ -228,8 +232,6 @@ input {
 
 #footer-social {
 	grid-column: 11/-1;
-	/* Remove as content will dictate height */
-	height: 80px;
 	background-color: #ddd;
 }
 
@@ -238,16 +240,20 @@ input {
 /* gallery page */
 
 #gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/1920x580");
+	background-color: #575151;
+	background-image: url('../images/memorial_banner.jpg');
 	height: 580px;
+	
+	background-blend-mode: multiply;
 }
 
 #gallery-text {
 	grid-column: 1/9;
-	/* Remove as content will dictate height */
-	height: 200px;
 	margin-top: 100px;
+	text-align: left;
+	padding-left: 30px;
+	font-size: 3em;
+	color: #dddddd;
 }
 
 #gallery-controls {
@@ -274,7 +280,5 @@ input {
 .gallery-box {
 	background-color: #ddd;
 	grid-column: span 4 / span 4;
-	/* Remove as content will dictate height */
-	height: 507px;
 	margin-bottom: 20px;
 }

@@ -2,28 +2,30 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Gallery mobile page</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <!-- students must convert divs to semantic tags -->
-	<div id="container">
+	<section id="container">
         
-        <div id="header-con">
+        <header id="header-con">
             <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
+                <img src="images/fip_logo_mobile.png" alt="image" id="header-logo">
                  <div id="mobile-nav">
-                    <span class="burger"></span>
-                    <span class="burger"></span>
-                    <span class="burger"></span>
+                    <span class="burger"><a href="index_mobile.html">Home</a></span>
+                    <span class="burger"><a href="gallery_mobile.html">Gallery</a></span>
+                    <span class="burger"><a href="index_mobile.html">About</a></span>
                  </div>
             </div>    
-        </div> 
+        </header> 
 
         <main>
             <div id="hero-gallery-con">
                 <div class="grid-con">
-                    <div id="hero-gallery-text" class="box-color">
+                    <div id="hero-gallery-text">
+                        <p>About the gallery </p><br>
+                        <p>The photos taken for this gallery have been edited and provided for this site to give some insight about the wars of old and the memorials that are dedicated to them.</p>
                     </div>
                     <div id="gallery-controls">
                         <span class="dot"></span>
@@ -34,38 +36,47 @@
             </div>
 
             <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
+                <h2>War and Memorials gallery</h2>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/war_plaque_mobile2.png" alt="image">
+                    <h3>Afghanistan Memorial Plaque </h3>
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/canada_flag_mobile.png" alt="image">
+                    <h3>Simcoe Soldier Gravesite</h3>
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/graveyard_mobile.png" alt="image">
+                    <h3>Simcoe Soldier Graveyard</h3>
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/war_mamorial_mobile.png" alt="image">
+                    <h3>Simcoe Memorial Tower</h3>
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/warzone_mobile.png" alt="image">
+                    <h3>Active Warzone</h3>
                 </div>
                 <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
+                    <img src="images/gunners_mobile.png" alt="image">
+                    <h3>Swamp Gunners</h3>
                 </div>
             </div>              
         </main>
 
-        <div id="footer-con">
+        <footer id="footer-con">
             <div class="grid-con">
                 <div id="footer-box">
+                <h2>Follow us @: SoldierSolute@facebook.com and SoldierSolute@twitter.com</h2>
                 </div>
                 <div id="footer-newsletter">
-                </div>
-                <div id="footer-newsletter2">
+                <h2>Newsletter -</h2><h2>Sign-up</h2>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Sign up">
                 </div>
             </div>
-        </div>
-    </div> 
+        </footer>
+    </section> 
 </body>
 </html>
